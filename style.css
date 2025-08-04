@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;  /* Stack children vertically */
+    align-items: center;     /* Center horizontally */
+    justify-content: center; /* Center vertically (if height is set) */
+    text-align: center;      /* Center text */
+}
+
+#naam {
+    font-size: 2em;
+    color: #333;
+    margin: 0;
+}
+#kaam {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+#links {
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+
+
+h2 {
+    text-decoration:  underline;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+ol {
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 2px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #e0e0e0;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
