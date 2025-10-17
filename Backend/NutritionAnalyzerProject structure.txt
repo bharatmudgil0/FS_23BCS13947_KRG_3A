@@ -1,0 +1,16 @@
+NutritionAnalyzerProject/
+├── lib/
+│   ├── mysql-connector-j-9.3.0.jar   <-- MySQL JDBC driver
+│   ├── jcommon-1.0.23.jar            <-- jcommon file
+│   ├── sqlite-jdbc-3.49.1.0.jar      <-- sqlite JDBC driver
+│   └── jfreechart-1.5.3.jar          <-- jfree chart file for charts and graphs
+├── src/
+│   ├── model/
+│   │   └── Food.java
+│   ├── dao/
+│   │   └── FoodDAO.java
+│   ├── util/
+│   │   └── DatabaseConnection.java
+│   └── ui/
+│       └── NutritionAnalyzer.java    <-- Main GUI
+├── NutritionAnalyzer.java  <-- Main GUI
