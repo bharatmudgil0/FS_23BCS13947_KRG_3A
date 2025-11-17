@@ -1,0 +1,12 @@
+.butt{
+  background-color: yellowgreen;
+  color: blueviolet;
+  padding: 20px 20px;
+  margin: 20px 220px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 200px;
+  width: 200px;
+  
+}
